@@ -1,0 +1,143 @@
+.barqia-level {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#race-with-us #race-with-us-content p img {
+    width: 100%;
+}
+
+#race-with-us #race-with-us-content #ovalo {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    height: 320px;
+    width: 1140px;
+}
+
+#race-with-us #race-with-us-content #ovalo .estadio {
+    cursor: pointer;
+    display: inline-block;
+}
+
+#race-with-us #race-with-us-content #ovalo .estadio .estadio-descripcion {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1;
+    left: 180px;
+    margin-top: -200px;
+    padding: 15px;
+    position: absolute;
+    visibility: hidden;
+    width: 275px;
+    z-index: 10;
+}
+
+#race-with-us #race-with-us-content #ovalo .estadio .estadio-descripcion h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#race-with-us #race-with-us-content #ovalo .estadio:hover .estadio-descripcion {
+    visibility: visible;
+}
+
+#race-with-us #race-with-us-content #ovalo .estadio img {
+    width: 160px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-1 {
+    position: absolute;
+    top: 125px;
+    left: -25px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-2 {
+    position: absolute;
+    top: 5px;
+    left: 125px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-2 {
+    position: absolute;
+    top: 5px;
+    left: 125px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-3 {
+    position: absolute;
+    top: 180px;
+    left: 180px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-4 {
+    position: absolute;
+    top: -30px;
+    left: 340px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-5 {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-6 {
+    position: absolute;
+    top: -50px;
+    left: 550px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-7 {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-8 {
+    position: absolute;
+    top: -15px;
+    left: 775px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-9 {
+    position: absolute;
+    top: 150px;
+    left: 850px;
+}
+
+#race-with-us #race-with-us-content #ovalo #estadio-10 {
+    position: absolute;
+    top: 75px;
+    right: -25px;
+}
+
+@media only screen and (min-width: 600px) {
+    #levels-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #race-with-us #ovalo {
+        display: none;
+    }
+
+    #video-kick {
+        display: none;
+    }
+
+    .barqia-level {
+        border: 1px solid lightgray;
+        font-size: 12px;
+        line-height: 1.5;
+        margin-left: 15px;
+        width: 250px
+    }
+
+    #levels-mobile img {
+        width: 225px !important
+    }
+}

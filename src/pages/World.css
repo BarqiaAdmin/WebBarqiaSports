@@ -1,0 +1,21 @@
+.barqia-button {
+    background: #2A8C9C;
+}
+
+        .barqia-button:hover {
+            background: #2C014B;
+        }
+
+.text-muted {
+    color: white !important;
+}
+
+#formBasicCheckbox {
+    margin-top: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        padding: 50px 40px !important;
+    }
+}

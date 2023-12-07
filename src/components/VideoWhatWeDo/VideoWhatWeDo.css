@@ -1,0 +1,7 @@
+#video-what-we-do {
+    opacity: 0.2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+}

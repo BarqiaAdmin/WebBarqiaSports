@@ -1,0 +1,40 @@
+.card {
+    --bs-card-bg: rgba(255, 255, 255, 0.8);
+}
+
+#about-us {
+    margin-bottom: 40px;
+    padding: 0 30px;
+}
+
+#about-us #about-us-text p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: '2.3em';
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#about-us h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+#about-us #about-us-text p img {
+    width: 100%;
+}
+
+#team-cards {
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    #about-us #about-us-text h1, #about-us #team-cards h1 {
+        font-size: 40px;
+    }
+}

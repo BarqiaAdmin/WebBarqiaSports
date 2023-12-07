@@ -1,0 +1,175 @@
+#december-hack-jam * {
+    color: #ffffff;
+    font-size: 1.06em;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#december-hack-jam img {
+    width: 100%;
+}
+
+#december-hack-jam h1, #december-hack-jam h2, #december-hack-jam p {
+    padding: 0px 30px
+}
+
+#december-hack-jam h1, #december-hack-jam h4 {
+    text-align: center;
+}
+
+#december-hack-jam button {
+    background: rgba(95, 78, 171, 0.7);
+    border: 4px solid #392884;
+    text-align: center;
+    width: 100%;
+}
+    #december-hack-jam button:hover {
+        background: #15A0B3 !important;
+        border: 4px solid #107E8D;
+    }
+
+#december-hack-jam .img-symbol {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    margin: 40px 0;
+    width: 100px;
+}
+
+#december-hack-jam strong {
+    color: #30A4B4;
+}
+
+#december-hack-jam .barqia-purple-text {
+    color: lightgray;
+    text-shadow:
+        0 0 3px #EA37A3,
+        0 0 5px #EA37A3,
+        0 0 10px #EA37A3,
+        0 0 20px #EA37A3,
+        0 0 40px #EA37A3,
+        0 0 45px #EA37A3,
+        0 0 50px #EA37A3,
+        0 0 75px #EA37A3;
+}
+
+/*
+#december-hack-jam #december-hack-jam-text #sumate-al-xr {
+    color: black;
+    text-shadow:
+        0 0 1.5px black,
+        0 0 2.5px black,
+        0 0 5px black,
+        0 0 10px #AA99F9,
+        0 0 20px #AA99F9,
+        0 0 22.5px #AA99F9,
+        0 0 25px #AA99F9,
+        0 0 35px #AA99F9;
+}
+*/
+
+#december-hack-jam Col {
+    z-index: 1;
+}
+
+#december-hack-jam .neon {
+    color: #fff;
+    text-shadow:
+        0 0 3px #fff,
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 21px #0fa,
+        0 0 41px #0fa,
+        0 0 45px #0fa,
+        0 0 51px #0fa,
+        0 0 75px #0fa;
+}
+
+#vive-experiencia-jammer-text {
+    color: #fff;
+    text-shadow:
+        0 0 3px #fff,
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 21px #0fa,
+        0 0 41px #0fa,
+        0 0 45px #0fa,
+        0 0 51px #0fa,
+        0 0 75px #0fa;
+}
+
+#december-hack-jam {
+    margin-bottom: 40px;
+}
+
+#december-hack-jam h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+#december-hack-jam h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+#december-hack-jam #december-hack-jam-text p {
+    font-size: '1.3em';
+    line-height: '2.3em';
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    word-spacing: 12px;
+}
+
+#december-hack-jam #december-hack-jam-text ul li {
+    font-size: 18px
+}
+
+@media only screen and (max-width: 600px) {
+    #december-hack-jam .hide-on-mobile {
+        display: none;
+    }
+
+    #december-hack-jam h1 {
+        font-size: 40px;
+    }
+
+    #december-hack-jam #december-hack-jam-text p, #december-hack-jam #december-hack-jam-text ul {
+        font-size: 1.08em;
+    }
+
+    #december-hack-jam #december-hack-jam-text #sumate-al-xr {
+        margin-top: 13px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #december-hack-jam button {
+        width: 300px;
+    }
+
+    #december-hack-jam ul {
+        font-size: 1.08em;
+        margin: 40px 0;
+    }
+        #december-hack-jam ul li {
+            font-size: 1.08em;
+            margin: 20px 0;
+        }
+
+    #december-hack-jam .hide-on-desktop {
+        display: none;
+    }
+
+    #december-hack-jam html, #december-hack-jam body, #december-hack-jam .App {
+        background: transparent !important;
+    }
+
+    #december-hack-jam #december-hack-jam-text #sumate-al-xr {
+        margin-top: 30px;
+    }
+}

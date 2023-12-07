@@ -1,0 +1,36 @@
+#what-we-do {
+    margin-bottom: 40px;
+    padding: 0 30px;
+}
+
+#what-we-do h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+#what-we-do #what-we-do-text p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: '2.3em';
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#what-we-do #what-we-do-text p img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #what-we-do #what-we-do-text h1 {
+        font-size: 40px;
+    }
+
+    #video-what-we-do {
+        display: none;
+    }
+}
