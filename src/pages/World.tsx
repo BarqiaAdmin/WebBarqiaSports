@@ -32,13 +32,11 @@ const World = () => {
                     <Form.Check type="checkbox" label="Remember password" />
                 </Form.Group>
                 <p style={{textAlign: 'center'}}>
-                    
-                        <a href={process.env.PUBLIC_URL + "WebGL/index.html"} style={{ color: 'white' }} >
-                            <Button className="barqia-button" style={{padding: '10px 20px'}}>
-                                Enter World
-                            </Button>
-                        </a>
-                    
+                    <a href={process.env.PUBLIC_URL + "WebGL/index.html"} style={{ color: 'white' }} >
+                        <Button className="barqia-button" style={{padding: '10px 20px'}}>
+                            Enter World
+                        </Button>
+                    </a>
                 </p>
             </Form>
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2'}}>
